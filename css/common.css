@@ -466,6 +466,40 @@ body {
         bottom: 0;
       }
 
+      .feature h2 {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .font2::after {
+        content: "";
+        background: #382009;
+        height: 2px;
+        width: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+      }
+
+      .font3 {
+        font-size: 35px;
+      }
+
+      .font4 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .font5 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .app .descript {
+      font-size: 18px;
+    }
+
+
       .app {
         padding: 50px 50px 100px;
         width: 80%;
